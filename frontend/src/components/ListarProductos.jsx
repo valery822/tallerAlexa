@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import CerrarSesion from "../components/Cerrarsesion";
 import { useUserContext } from "./useContenxt";
+import "../stayle/ListarProducto.css"
 
 function ListarProducto() {
   const { selectedUser } = useUserContext(); 
