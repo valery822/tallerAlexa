@@ -1,0 +1,97 @@
+/* ==========================
+   Variables base
+========================== */
+
+:root {
+    --color-fondo: #f4f6f8;
+    --color-texto: #333;
+    --color-form-bg: #ffffff;
+    --color-borde: #ccc;
+    --color-btn: #007bff;
+    --color-btn-hover: #0056b3;
+}
+
+
+/* ==========================
+     Estilo general
+  ========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* ==========================
+     Contenedor principal
+  ========================== */
+
+div {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: var(--color-form-bg);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ==========================
+     Título
+  ========================== */
+
+h1 {
+    text-align: center;
+    color: var(--color-texto);
+    margin-bottom: 30px;
+}
+
+
+/* ==========================
+     Formulario
+  ========================== */
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--color-texto);
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-borde);
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* ==========================
+     Botón
+  ========================== */
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-btn);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color-btn-hover);
+}
